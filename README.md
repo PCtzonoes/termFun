@@ -10,8 +10,7 @@ terminal. This project is open-source, meaning anyone can contribute and help ma
 
 **Dependencies**: Ensure you have the `ncurses` library and a C++ compiler installed on your machine.
 
-1. Clone this repository to your local machine using `git clone https://github.com/yourusername/termFun.git` (
-   replace `yourusername` with your actual username).
+1. Clone this repository to your local machine using `git clone https://github.com/PCtzonoes/termFun`.
 2. Inside the directory, compile the project using CMake. Example:
     ```bash
     mkdir build
