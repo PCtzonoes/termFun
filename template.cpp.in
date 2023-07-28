@@ -1,0 +1,10 @@
+
+#include <nlohmann/json.hpp>
+
+std::string test_json_content = R"json(
+@TEST_JSON_CONTENT@
+)json";
+
+nlohmann::json get_test_json() {
+    return nlohmann::json::parse(test_json_content);
+}
